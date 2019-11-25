@@ -28,7 +28,7 @@
     </script>
 </head>
 <body>
-<form action="/day16/loginServlet" method="post">
+<form action="${pageContext.request.contextPath}/day16/loginServlet" method="post">
     <div>
         <table align="center" border="1" style="width: 300px;height: 200px" >
             <tr>
